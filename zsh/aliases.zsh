@@ -15,3 +15,4 @@ alias cd..='cd ..'
 alias ..='cd ..'
 alias spec='spec -c'
 alias heroku='nocorrect heroku'
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator\.platform/Developer/Applications/iPhone\ Simulator.app"

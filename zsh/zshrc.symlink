@@ -35,10 +35,6 @@ unset config_files
 # set cd autocompletion to commonly visited directories
 cdpath=(. ~ ~/src $SOURCE_DIR)
 
-# chruby!
-[[ ! -a /usr/local/opt/chruby/share/chruby/chruby.sh ]] || source /usr/local/opt/chruby/share/chruby/chruby.sh
-[[ ! -a /usr/local/opt/chruby/share/chruby/auto.sh ]] || source /usr/local/opt/chruby/share/chruby/auto.sh
-
 # import local zsh customizations, if present
 zrcl="$HOME/.zshrc.local"
 [[ ! -a $zrcl ]] || source $zrcl
